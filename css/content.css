@@ -124,6 +124,7 @@ p{
     display: flex;
     justify-content: center;
     background-color: purple;
+    margin-bottom: 20px;
 }
 .banner-box{
     display: flex;
@@ -155,6 +156,23 @@ p{
 }
 .banner-final:hover{
     transform: scale(1.05);
+}
+/* Categories */
+.category-list{
+    display: flex;
+    gap: 20px;
+}
+.category-item{
+    flex: 1;
+    text-align: center;
+    transition: all 500ms;
+}
+.category-item:hover{
+    transform: scale(1.05);
+}
+.category-item img{
+    width: 100%;
+    border-radius: 8px;
 }
 /* phần main */
 .products{
